@@ -1,12 +1,38 @@
 # 宠物领养全周期治理系统
 
-一个面向流浪动物领养场景的 full-stack 项目，包含手机端领养应用、后端 API 服务和后台管理系统。项目围绕“发布送养、提交领养申请、送养人初筛、后台终审、领养后定期回访”构建完整业务闭环，适合用于课程项目、作品集展示或全栈开发练习。
+面向流浪动物公益领养场景的 full-stack 项目，包含用户端移动应用、Express 后端 API 和后台管理系统。项目围绕“发布送养、提交领养申请、送养人初筛、后台终审、领养后定期回访”构建完整业务闭环，适合作为全栈开发课程项目、作品集项目或业务原型展示。
 
 ## 项目简介
 
-本项目模拟一个公益宠物领养平台。普通用户可以注册登录、发布待领养宠物、浏览宠物信息、提交领养申请、与送养人沟通，并在领养成功后完成定期回访打卡。后台管理端用于监管宠物发布、用户信用、领养申请审批、回访记录和基础运营数据。
+本项目模拟一个公益宠物领养平台。普通用户可以注册登录、浏览同城待领养宠物、发布送养信息、提交领养申请、与送养人沟通，并在领养成功后完成定期回访打卡。
 
-项目采用前后端分离结构：用户端和后台管理端均由 React + Vite 构建，后端使用 Express + MySQL 提供 RESTful API。所有核心数据通过后端统一读写，保证手机端和管理端状态同步。
+后台管理系统用于平台监管，包括宠物发布审核、领养申请终审、用户信用管理、回访打卡查看、运营数据统计和操作审计。前端与后台均通过同一个后端 API 读写数据，从而保证用户端和管理端状态同步。
+
+## 项目截图
+
+### 用户端首页
+
+![用户端首页](./docs/images/mobile-home.jpg)
+
+### 宠物详情页
+
+![宠物详情页](./docs/images/mobile-pet-detail.jpg)
+
+### 后台管理仪表盘
+
+![后台管理仪表盘](./docs/images/admin-dashboard.jpg)
+
+### 领养申请审批
+
+![领养申请审批](./docs/images/admin-applications.jpg)
+
+### 用户信用管理
+
+![用户信用管理](./docs/images/admin-users.jpg)
+
+### 领养回访打卡
+
+![领养回访打卡](./docs/images/admin-feedback.jpg)
 
 ## 功能特性
 
@@ -23,9 +49,9 @@
 
 ### 后端 API 服务
 
-- 用户、宠物、领养申请、聊天、预约、通知、回访计划等数据接口
+- 用户、宠物、领养申请、聊天、预约、通知、回访计划等 RESTful API
 - MySQL 数据持久化
-- 首次启动时可从 `backend/db.json` 导入种子数据
+- 首次启动时可从 `backend/db.json` 导入演示种子数据
 - 管理端鉴权中间件和开发环境 mock token
 - 领养流程状态控制：
   - `开放申请`：可提交领养申请
@@ -81,15 +107,13 @@
 系统由三部分组成：
 
 1. **用户端 App**
-   提供移动端风格的领养使用体验，包括宠物浏览、送养发布、领养申请、沟通、回访打卡等功能。
+   提供移动端风格的领养使用体验，包括宠物浏览、送养发布、领养申请、沟通和回访打卡。
 
 2. **后端 API 服务**
    负责统一处理数据读写、状态流转、回访计划生成、通知、聊天和管理端操作。
 
 3. **后台管理系统**
    面向平台管理员，用于监管宠物发布、领养申请、用户信用和领养后的回访履约情况。
-
-数据流大致如下：
 
 ```txt
 用户端 App  ──┐
@@ -117,6 +141,7 @@ cat/
 │   ├── src/db.ts            # MySQL 数据访问层
 │   ├── db.json              # 演示种子数据
 │   └── package.json
+├── docs/images/             # README 项目截图
 ├── package.json             # 用户端依赖与脚本
 ├── .env.example             # 用户端环境变量示例
 └── README.md
@@ -127,13 +152,11 @@ cat/
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/your-username/pet-adoption-lifecycle-system.git
-cd pet-adoption-lifecycle-system
+git clone https://github.com/elinafff/yao-feng.git
+cd yao-feng
 ```
 
 ### 2. 配置后端环境变量
-
-复制后端环境变量示例：
 
 ```bash
 cd backend
@@ -152,8 +175,6 @@ MYSQL_USER=root
 MYSQL_PASSWORD=
 MYSQL_DATABASE=pet_adoption
 ```
-
-请不要把真实 `.env`、数据库密码或任何私密配置上传到 GitHub。
 
 ### 3. 启动后端 API
 
@@ -207,7 +228,9 @@ npm run dev -- --port 5173 --host 127.0.0.1
 http://127.0.0.1:5173
 ```
 
-## 建议上传到 GitHub 的内容
+## 上传内容与安全说明
+
+本仓库保留项目运行所需的源码、依赖清单、环境变量示例和演示数据。
 
 建议上传：
 
@@ -222,8 +245,8 @@ http://127.0.0.1:5173
 - `.env.example`
 - `backend/.env.example`
 - `admin-backend/.env.example`
-- `backend/db.json`，前提是里面只放演示数据，不放真实用户隐私
-- `docs/images/`，如果后续要放项目截图
+- `backend/db.json`，仅作为演示种子数据
+- `docs/images/`
 
 不要上传：
 
@@ -238,30 +261,6 @@ http://127.0.0.1:5173
 - `.DS_Store`
 - `.codex/`
 - `project.private.config.json`
-
-## 截图建议
-
-建议在仓库中创建：
-
-```txt
-docs/images/
-```
-
-可以放这些截图：
-
-- 用户端首页和宠物详情页
-- 发布送养流程
-- 领养申请流程
-- 后台管理仪表盘
-- 用户信用管理页
-- 领养回访打卡页
-
-README 中可以这样引用：
-
-```md
-![用户端首页](./docs/images/user-home.png)
-![后台管理仪表盘](./docs/images/admin-dashboard.png)
-```
 
 ## 项目亮点
 
@@ -290,4 +289,3 @@ README 中可以这样引用：
 ## Author
 
 Developed as a full-stack pet adoption lifecycle management project.
-
