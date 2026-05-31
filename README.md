@@ -288,4 +288,4 @@ http://127.0.0.1:5173
 
 ## Author
 
-Developed as a full-stack pet adoption lifecycle management project.
+Elinaf.
