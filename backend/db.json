@@ -1,0 +1,690 @@
+{
+  "users": [
+    {
+      "id": "u_1",
+      "nickname": "张三",
+      "phone": "13800138000",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "天河区",
+      "ageGroup": "90后",
+      "occupation": "程序员",
+      "livingCondition": "三室一厅",
+      "hasPetExperience": true,
+      "hasStableHome": true,
+      "withFamily": false,
+      "familyAgree": true,
+      "creditScore": 95,
+      "status": "active"
+    },
+    {
+      "id": "u_2",
+      "nickname": "李四",
+      "phone": "13900139000",
+      "province": "北京市",
+      "city": "北京市",
+      "district": "朝阳区",
+      "ageGroup": "80后",
+      "occupation": "教师",
+      "livingCondition": "别墅",
+      "hasPetExperience": false,
+      "hasStableHome": true,
+      "withFamily": true,
+      "familyAgree": true,
+      "creditScore": 98,
+      "status": "active"
+    },
+    {
+      "id": "u_1779701717058",
+      "phone": "13131313131",
+      "nickname": "1",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "天河区",
+      "hasPetExperience": false,
+      "ageGroup": "95后",
+      "occupation": "公务员",
+      "livingCondition": "自有住房",
+      "hasStableHome": true,
+      "withFamily": false,
+      "familyAgree": true,
+      "creditScore": 100,
+      "status": "active",
+      "createdAt": "2026-05-25T09:35:17.058Z"
+    },
+    {
+      "id": "u_1779701785162",
+      "phone": "13812345678",
+      "nickname": "1",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "天河区",
+      "hasPetExperience": false,
+      "ageGroup": "95后",
+      "occupation": "公务员",
+      "livingCondition": "自有住房",
+      "hasStableHome": true,
+      "withFamily": false,
+      "familyAgree": true,
+      "creditScore": 100,
+      "status": "active",
+      "createdAt": "2026-05-25T09:36:25.162Z"
+    },
+    {
+      "id": "u_1779705577694",
+      "phone": "12121212121",
+      "nickname": "12",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "荔湾区",
+      "hasPetExperience": true,
+      "ageGroup": "95后",
+      "occupation": "公务员",
+      "livingCondition": "自有住房",
+      "hasStableHome": true,
+      "withFamily": false,
+      "familyAgree": true,
+      "creditScore": 100,
+      "status": "active",
+      "createdAt": "2026-05-25T10:39:37.694Z"
+    },
+    {
+      "id": "u_1779733579268",
+      "phone": "11111111111",
+      "nickname": "1",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "天河区",
+      "hasPetExperience": true,
+      "ageGroup": "95后",
+      "occupation": "公务员",
+      "livingCondition": "自有住房",
+      "hasStableHome": true,
+      "withFamily": false,
+      "familyAgree": true,
+      "creditScore": 100,
+      "status": "active",
+      "createdAt": "2026-05-25T18:26:19.268Z"
+    },
+    {
+      "id": "u_1779736384475",
+      "phone": "22222222222",
+      "nickname": "222",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "天河区",
+      "hasPetExperience": false,
+      "ageGroup": "95后",
+      "occupation": "公务员",
+      "livingCondition": "自有住房",
+      "hasStableHome": true,
+      "withFamily": false,
+      "familyAgree": true,
+      "creditScore": 100,
+      "status": "active",
+      "createdAt": "2026-05-25T19:13:04.475Z"
+    }
+  ],
+  "pets": [
+    {
+      "id": "p_1",
+      "name": "雪莉",
+      "type": "dog",
+      "breed": "柯基",
+      "age": "2岁",
+      "gender": "妹妹",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "天河区",
+      "status": "开放申请",
+      "photos": [
+        "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=200"
+      ],
+      "views": 120,
+      "favorites": 45,
+      "ownerNickname": "大白铲屎官",
+      "health": {
+        "sterilized": true,
+        "vaccinated": true,
+        "dewormed": true,
+        "hasChip": true,
+        "hasMedicalHistory": false,
+        "medicalHistoryDesc": "",
+        "needsCare": false,
+        "needsCareDesc": "",
+        "hasCertificates": true
+      },
+      "traits": {
+        "houseTrained": true,
+        "friendly": true
+      },
+      "desc": "活泼可爱的柯基",
+      "ownerId": "u_1",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2026-05-27T08:22:09.333Z",
+      "adopterId": "u_1779733579268"
+    },
+    {
+      "id": "p_2",
+      "name": "布丁",
+      "type": "cat",
+      "breed": "英短蓝猫",
+      "age": "6个月",
+      "gender": "弟弟",
+      "province": "北京市",
+      "city": "北京市",
+      "district": "朝阳区",
+      "status": "开放申请",
+      "photos": [
+        "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&q=80&w=200"
+      ],
+      "views": 89,
+      "favorites": 23,
+      "ownerNickname": "猫奴一号",
+      "health": {
+        "sterilized": true,
+        "vaccinated": true,
+        "dewormed": true,
+        "hasChip": false,
+        "hasMedicalHistory": false,
+        "medicalHistoryDesc": "",
+        "needsCare": false,
+        "needsCareDesc": "",
+        "hasCertificates": true
+      },
+      "traits": {
+        "litterTrained": true,
+        "friendly": true
+      },
+      "desc": "乖巧的蓝猫",
+      "ownerId": "u_2",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2026-05-27T08:22:08.032Z"
+    },
+    {
+      "id": "p_1779736269965",
+      "name": "咪咪",
+      "type": "cat",
+      "breed": "小猫",
+      "age": "5个月",
+      "gender": "妹妹",
+      "weight": "",
+      "province": "北京市",
+      "city": "北京市",
+      "district": "朝阳区",
+      "livingEnv": "家庭",
+      "health": {
+        "sterilized": false,
+        "vaccinated": false,
+        "dewormed": false,
+        "hasChip": false,
+        "hasMedicalHistory": false,
+        "medicalHistoryDesc": "",
+        "needsCare": false,
+        "needsCareDesc": "",
+        "hasCertificates": false
+      },
+      "traits": {
+        "litterTrained": true,
+        "friendly": true,
+        "shy": false,
+        "clingy": false,
+        "bites": false,
+        "apartmentFriendly": true,
+        "catsFriendly": true,
+        "dogsFriendly": true,
+        "kidsFriendly": true
+      },
+      "desc": "乖乖乖乖乖乖乖111111",
+      "reason": "11111111111111111111111111111",
+      "requirements": "111111111111111111111111111111",
+      "photos": [
+        "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&q=80&w=400",
+        "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&q=80&w=400",
+        "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&q=80&w=400"
+      ],
+      "ownerId": "u_1779733579268",
+      "ownerNickname": "1",
+      "status": "开放申请",
+      "createdAt": "2026-05-25T19:11:09.965Z",
+      "views": 0,
+      "favorites": 0,
+      "updatedAt": "2026-05-27T08:22:04.765Z",
+      "adopterId": "u_1779736384475"
+    }
+  ],
+  "applications": [
+    {
+      "id": "a_demo_mine_1",
+      "petId": "p_1",
+      "petName": "雪莉",
+      "petPhoto": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=200",
+      "applicantId": "u_1779733579268",
+      "applicantNickname": "1",
+      "applicantPhone": "11111111111",
+      "status": "已通过",
+      "createdAt": "2026-05-25",
+      "details": {
+        "ageGroup": "95后",
+        "occupation": "公务员",
+        "livingCondition": "自有住房",
+        "hasStableHome": true,
+        "withFamily": false,
+        "familyAgree": true,
+        "hasPetExperience": true,
+        "experienceDesc": "已有养宠经验，了解日常照护和疫苗驱虫。",
+        "hasOtherPets": false,
+        "understandBasicCare": true,
+        "canAffordDaily": true,
+        "canAffordMedical": true,
+        "motivation": "希望领养一只性格稳定的狗狗长期陪伴。",
+        "carePlan": "按时喂养、遛狗、体检，接受平台回访。",
+        "emergencyPlan": "突发疾病会第一时间送宠物医院。"
+      },
+      "updatedAt": "2026-05-27T08:13:32.703Z"
+    },
+    {
+      "id": "a_1779735380272_lkk41s0y9",
+      "petId": "p_1",
+      "petName": "雪莉",
+      "petPhoto": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=200",
+      "applicantId": "u_1779733579268",
+      "applicantNickname": "1",
+      "applicantPhone": "11111111111",
+      "status": "已提交",
+      "createdAt": "2026-05-25",
+      "details": {
+        "ageGroup": "95后",
+        "occupation": "公务员",
+        "livingCondition": "自有住房",
+        "hasStableHome": true,
+        "withFamily": false,
+        "familyAgree": true,
+        "hasPetExperience": true,
+        "experienceDesc": "具备科学养宠经验，了解基础医疗常识。",
+        "hasOtherPets": false,
+        "understandBasicCare": true,
+        "canAffordDaily": true,
+        "canAffordMedical": true,
+        "motivation": "我特别喜欢毛茸茸的小动物，上班生活工作规律。想有一只小猫爪能够陪伴成长，我也愿意竭尽所能科学供它最好的粮食与体检！",
+        "carePlan": "提供充足的陪伴，科学喂养，定期体检。",
+        "emergencyPlan": "如有突发状况，将第一时间送往专业宠物医院，绝不弃养。"
+      }
+    },
+    {
+      "id": "a_1779735541968_4ni1bqqh7",
+      "petId": "p_1",
+      "petName": "雪莉",
+      "petPhoto": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=200",
+      "applicantId": "u_1779733579268",
+      "applicantNickname": "1",
+      "applicantPhone": "11111111111",
+      "status": "已通过",
+      "createdAt": "2026-05-25",
+      "details": {
+        "ageGroup": "95后",
+        "occupation": "公务员",
+        "livingCondition": "自有住房",
+        "hasStableHome": true,
+        "withFamily": false,
+        "familyAgree": true,
+        "hasPetExperience": true,
+        "experienceDesc": "具备科学养宠经验，了解基础医疗常识。",
+        "hasOtherPets": false,
+        "understandBasicCare": true,
+        "canAffordDaily": true,
+        "canAffordMedical": true,
+        "motivation": "我特别喜欢毛茸茸的小动物，上班生活工作规律。想有一只小猫爪能够陪伴成长，我也愿意竭尽所能科学供它最好的粮食与体检！",
+        "carePlan": "提供充足的陪伴，科学喂养，定期体检。",
+        "emergencyPlan": "如有突发状况，将第一时间送往专业宠物医院，绝不弃养。"
+      },
+      "updatedAt": "2026-05-25T19:02:48.623Z"
+    },
+    {
+      "id": "a_1779736499002_7uau6heyr",
+      "petId": "p_1779736269965",
+      "petName": "咪咪",
+      "petPhoto": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&q=80&w=400",
+      "applicantId": "u_1779736384475",
+      "applicantNickname": "222",
+      "applicantPhone": "22222222222",
+      "status": "已通过",
+      "createdAt": "2026-05-25",
+      "details": {
+        "ageGroup": "95后",
+        "occupation": "公务员",
+        "livingCondition": "自有住房",
+        "hasStableHome": true,
+        "withFamily": false,
+        "familyAgree": true,
+        "hasPetExperience": false,
+        "experienceDesc": "新手领养，已提前学习科学养宠知识。",
+        "hasOtherPets": false,
+        "understandBasicCare": true,
+        "canAffordDaily": true,
+        "canAffordMedical": true,
+        "motivation": "我特别喜欢毛茸茸的小动物，上班生活工作规律。想有一只小猫爪能够陪伴成长，我也愿意竭尽所能科学供它最好的粮食与体检！",
+        "carePlan": "提供充足的陪伴，科学喂养，定期体检。",
+        "emergencyPlan": "如有突发状况，将第一时间送往专业宠物医院，绝不弃养。"
+      },
+      "updatedAt": "2026-05-25T19:15:14.495Z"
+    }
+  ],
+  "rescue_records": [
+    {
+      "id": "rescue_1",
+      "petId": "p_1",
+      "date": "2024-01-15",
+      "location": "天河公园门口",
+      "condition": "轻微脱水",
+      "rescuer": "张先生"
+    }
+  ],
+  "medical_records": [
+    {
+      "id": "med_1",
+      "petId": "p_1",
+      "date": "2024-01-20",
+      "type": "疫苗",
+      "details": "注射狂犬疫苗",
+      "hospital": "爱宠动物医院"
+    },
+    {
+      "id": "med_2",
+      "petId": "p_2",
+      "date": "2024-02-10",
+      "type": "手术",
+      "details": "绝育手术",
+      "hospital": "康贝宠物医院"
+    }
+  ],
+  "end_of_life_records": [
+    {
+      "id": "eol_1",
+      "petId": "p_2",
+      "date": "2025-05-20",
+      "cause": "自然老死",
+      "memorial": "布丁是一只很乖的猫，永远怀念它。",
+      "burialLocation": "宠物纪念林"
+    }
+  ],
+  "admins": [
+    {
+      "id": "admin_1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "superadmin"
+    }
+  ],
+  "logs": [
+    {
+      "id": "audit_1779735541988",
+      "timestamp": "2026/5/26 02:59:01",
+      "operator": "1",
+      "action": "提交领养申请",
+      "module": "领养申请审批",
+      "targetId": "a_1779735541968_4ni1bqqh7",
+      "details": "手机前端提交了对【雪莉】的领养申请，监管台已进入流程跟踪。",
+      "ip": "127.0.0.1"
+    },
+    {
+      "id": "audit_1779735768625",
+      "timestamp": "2026/5/26 03:02:48",
+      "operator": "admin",
+      "action": "核准领养申请",
+      "module": "领养申请审批",
+      "targetId": "a_1779735541968_4ni1bqqh7",
+      "details": "监管台将【1】对【雪莉】的申请状态更新为【已通过】。",
+      "ip": "192.168.1.100"
+    },
+    {
+      "id": "log_1779736269966",
+      "adminId": "admin_1",
+      "action": "CREATE",
+      "targetModel": "Pet",
+      "targetId": "p_1779736269965",
+      "details": "Created pet: 咪咪",
+      "createdAt": "2026-05-25T19:11:09.966Z"
+    },
+    {
+      "id": "audit_1779736499014",
+      "timestamp": "2026/5/26 03:14:59",
+      "operator": "222",
+      "action": "提交领养申请",
+      "module": "领养申请审批",
+      "targetId": "a_1779736499002_7uau6heyr",
+      "details": "手机前端提交了对【咪咪】的领养申请，监管台已进入流程跟踪。",
+      "ip": "127.0.0.1"
+    },
+    {
+      "id": "audit_1779736514497",
+      "timestamp": "2026/5/26 03:15:14",
+      "operator": "admin",
+      "action": "核准领养申请",
+      "module": "领养申请审批",
+      "targetId": "a_1779736499002_7uau6heyr",
+      "details": "监管台将【222】对【咪咪】的申请状态更新为【已通过】。",
+      "ip": "192.168.1.100"
+    },
+    {
+      "id": "log_1779869550823",
+      "adminId": "admin_1",
+      "action": "UPDATE",
+      "targetModel": "Pet",
+      "targetId": "p_2",
+      "details": "Updated pet: 布丁",
+      "createdAt": "2026-05-27T08:12:30.823Z"
+    },
+    {
+      "id": "log_1779869552381",
+      "adminId": "admin_1",
+      "action": "UPDATE",
+      "targetModel": "Pet",
+      "targetId": "p_2",
+      "details": "Updated pet: 布丁",
+      "createdAt": "2026-05-27T08:12:32.381Z"
+    },
+    {
+      "id": "log_1779869553433",
+      "adminId": "admin_1",
+      "action": "UPDATE",
+      "targetModel": "Pet",
+      "targetId": "p_2",
+      "details": "Updated pet: 布丁",
+      "createdAt": "2026-05-27T08:12:33.433Z"
+    },
+    {
+      "id": "log_1779869556287",
+      "adminId": "admin_1",
+      "action": "UPDATE",
+      "targetModel": "Pet",
+      "targetId": "p_2",
+      "details": "Updated pet: 布丁",
+      "createdAt": "2026-05-27T08:12:36.287Z"
+    },
+    {
+      "id": "log_1779869556834",
+      "adminId": "admin_1",
+      "action": "UPDATE",
+      "targetModel": "Pet",
+      "targetId": "p_2",
+      "details": "Updated pet: 布丁",
+      "createdAt": "2026-05-27T08:12:36.834Z"
+    },
+    {
+      "id": "audit_1779869588621",
+      "timestamp": "2026/5/27 16:13:08",
+      "operator": "admin",
+      "action": "核准领养申请",
+      "module": "领养申请审批",
+      "targetId": "a_demo_mine_1",
+      "details": "监管台将【1】对【雪莉】的申请状态更新为【已通过】。",
+      "ip": "192.168.1.100"
+    },
+    {
+      "id": "log_1779869599820",
+      "adminId": "admin_1",
+      "action": "UPDATE",
+      "targetModel": "Pet",
+      "targetId": "p_1",
+      "details": "Updated pet: 雪莉",
+      "createdAt": "2026-05-27T08:13:19.820Z"
+    },
+    {
+      "id": "log_1779869601715",
+      "adminId": "admin_1",
+      "action": "UPDATE",
+      "targetModel": "Pet",
+      "targetId": "p_1",
+      "details": "Updated pet: 雪莉",
+      "createdAt": "2026-05-27T08:13:21.715Z"
+    },
+    {
+      "id": "audit_1779869612707",
+      "timestamp": "2026/5/27 16:13:32",
+      "operator": "admin",
+      "action": "核准领养申请",
+      "module": "领养申请审批",
+      "targetId": "a_demo_mine_1",
+      "details": "监管台将【1】对【雪莉】的申请状态更新为【已通过】。",
+      "ip": "192.168.1.100"
+    },
+    {
+      "id": "log_1779869618682",
+      "adminId": "admin_1",
+      "action": "UPDATE",
+      "targetModel": "Pet",
+      "targetId": "p_1",
+      "details": "Updated pet: 雪莉",
+      "createdAt": "2026-05-27T08:13:38.682Z"
+    },
+    {
+      "id": "log_1779870120214",
+      "adminId": "admin_1",
+      "action": "UPDATE",
+      "targetModel": "Pet",
+      "targetId": "p_1779736269965",
+      "details": "Updated pet: 咪咪",
+      "createdAt": "2026-05-27T08:22:00.214Z"
+    },
+    {
+      "id": "log_1779870121567",
+      "adminId": "admin_1",
+      "action": "UPDATE",
+      "targetModel": "Pet",
+      "targetId": "p_1779736269965",
+      "details": "Updated pet: 咪咪",
+      "createdAt": "2026-05-27T08:22:01.567Z"
+    },
+    {
+      "id": "log_1779870122418",
+      "adminId": "admin_1",
+      "action": "UPDATE",
+      "targetModel": "Pet",
+      "targetId": "p_1779736269965",
+      "details": "Updated pet: 咪咪",
+      "createdAt": "2026-05-27T08:22:02.418Z"
+    },
+    {
+      "id": "log_1779870123233",
+      "adminId": "admin_1",
+      "action": "UPDATE",
+      "targetModel": "Pet",
+      "targetId": "p_1779736269965",
+      "details": "Updated pet: 咪咪",
+      "createdAt": "2026-05-27T08:22:03.233Z"
+    },
+    {
+      "id": "log_1779870123984",
+      "adminId": "admin_1",
+      "action": "UPDATE",
+      "targetModel": "Pet",
+      "targetId": "p_1779736269965",
+      "details": "Updated pet: 咪咪",
+      "createdAt": "2026-05-27T08:22:03.984Z"
+    },
+    {
+      "id": "log_1779870124766",
+      "adminId": "admin_1",
+      "action": "UPDATE",
+      "targetModel": "Pet",
+      "targetId": "p_1779736269965",
+      "details": "Updated pet: 咪咪",
+      "createdAt": "2026-05-27T08:22:04.766Z"
+    },
+    {
+      "id": "log_1779870126568",
+      "adminId": "admin_1",
+      "action": "UPDATE",
+      "targetModel": "Pet",
+      "targetId": "p_2",
+      "details": "Updated pet: 布丁",
+      "createdAt": "2026-05-27T08:22:06.568Z"
+    },
+    {
+      "id": "log_1779870127250",
+      "adminId": "admin_1",
+      "action": "UPDATE",
+      "targetModel": "Pet",
+      "targetId": "p_2",
+      "details": "Updated pet: 布丁",
+      "createdAt": "2026-05-27T08:22:07.250Z"
+    },
+    {
+      "id": "log_1779870128033",
+      "adminId": "admin_1",
+      "action": "UPDATE",
+      "targetModel": "Pet",
+      "targetId": "p_2",
+      "details": "Updated pet: 布丁",
+      "createdAt": "2026-05-27T08:22:08.033Z"
+    },
+    {
+      "id": "log_1779870129334",
+      "adminId": "admin_1",
+      "action": "UPDATE",
+      "targetModel": "Pet",
+      "targetId": "p_1",
+      "details": "Updated pet: 雪莉",
+      "createdAt": "2026-05-27T08:22:09.334Z"
+    }
+  ],
+  "feedback_plans": [
+    {
+      "id": "fb_p_1_u_1779733579268",
+      "petId": "p_1",
+      "petName": "雪莉",
+      "petPhoto": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=200",
+      "adopterId": "u_1779733579268",
+      "adopterNickname": "1",
+      "ownerId": "u_1",
+      "ownerNickname": "大白铲屎官",
+      "nodes": [
+        {
+          "nodeId": "day7",
+          "title": "第 7 天：适应期状况评估",
+          "dueDate": "2026-06-01",
+          "status": "待提交"
+        },
+        {
+          "nodeId": "day30",
+          "title": "第 30 天：家庭稳定生活随记",
+          "dueDate": "2026-06-24",
+          "status": "待提交"
+        },
+        {
+          "nodeId": "day90",
+          "title": "第 90 天：长期适应反馈",
+          "dueDate": "2026-08-23",
+          "status": "待提交"
+        },
+        {
+          "nodeId": "day180",
+          "title": "第 180 天：半年健康发育总结书",
+          "dueDate": "2026-11-21",
+          "status": "待提交"
+        }
+      ]
+    }
+  ]
+}
